@@ -2,6 +2,7 @@ provider "aws" {
   access_key = "AKIAWGQACST6YU35GQO6"
   secret_key = "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"
   region = var.region
+  role_arn = "role-123"
 
 }
 data "aws_region" "current" {
